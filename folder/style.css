@@ -1,0 +1,54 @@
+body{
+    background-color: ivory;
+    font-family: sans-serif;
+    margin:0px;
+    color: white;
+    padding:0px;
+}
+header{
+    background: black;
+    padding:20px;
+    text-decoration: none;
+}
+header li :hover{
+    
+    background-color: darkorange;
+    border-radius: 2.5px;
+
+}
+section{
+    background: white;
+    color:grey;
+    padding:20px;
+    display: flex;
+}
+div{
+    background:red;
+    margin: auto;
+    width: 100px;
+}
+section.feature-box{
+    font-size: 20px;
+
+}
+ul{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+}
+li{
+    display:inline-block;
+    margin: 0 20px 0 0;
+}
+
+
+
+
+
+footer{
+    background: black;
+    padding:10px 20px;
+    
+}
